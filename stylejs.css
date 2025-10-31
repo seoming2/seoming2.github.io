@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,7 +15,7 @@ a {
 
 body,
 html {
-  height: 100%;
+  height: 100vh;
   font-family: "Noto Sans KR", sans-serif;
   color: #5a524a;
 }
@@ -28,7 +28,7 @@ html {
 main {
   height: 100%;
   background-color: azure;
-  background: url(img/ba11.jpg) no-repeat center/cover;
+  /* background: url(img/ba11.jpg) no-repeat center/cover; */
   position: relative;
 }
 
@@ -78,13 +78,14 @@ header {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh; 
+  height: auto;       /* 자동으로 콘텐츠에 맞게 */
+  padding: 5rem 0;  
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 0;
   scroll-margin-top: 80px;
 }
 
@@ -95,10 +96,14 @@ section {
 }
 
 #about {
-  background:url(img/ba11.jpg);
-  padding: 100px 0;
+  color:white;
+  background: url(img/ba11.jpg) no-repeat center/cover;
   text-align: center;
 }
+#about h2{
+  color:white;}
+  
+#about img{ width:100%;height: 100vh;}
 
 /* 프로젝트 섹션 */
 .gallery {
@@ -115,7 +120,7 @@ section {
 }
 
 .box {
-  width: 23%;  /* 6개 이하일때는 30% */
+  width: 30%;  /* 6개 이하일때는 30% */
   cursor: pointer;
   border: 0px solid #ddd;
 }
@@ -138,7 +143,7 @@ section {
 
 /* 프로젝트2 웹포플 */
 #project2 {
-  padding-top: 6rem;
+ padding-top: 6rem;
 }
 
 .web-project {
@@ -189,8 +194,9 @@ section {
 
 #contact {
   text-align: center;
-  padding: relative; /*겹침 방지*/
-  
+  padding: 8rem 0;
+  position: relative; /* 겹침 방지 */
+  z-index: 1;
 }
 
 #contact li {
@@ -293,4 +299,5 @@ section {
     transform: translateY(0);
     opacity: 1;
   }
-}
+} 
+#mv{ z-index: -1; width:100%; height:100%; object-fit: cover;}
