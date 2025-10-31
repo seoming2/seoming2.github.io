@@ -1,33 +1,33 @@
 // 프로젝트 정보 데이터
 const projects = {
   project1: {
-    title: 'Edit Design Project 1',
-    image: 'img/portfolio/p1.jpg',
-    description: '이 프로젝트는 브랜드 아이덴티티를 위한 패키지 디자인입니다. 심플하면서도 감각적인 디자인으로 제품의 가치를 극대화했습니다.'
+    title: '리플렛',
+    image: 'img/portfolio/P1.jpg',
+    description: '이 리플렛은 독도 관광 패키지 홍보와 독도 인식 확산을 목적으로 제작되었습니다.'
   },
   project2: {
-    title: 'Edit Design Project 2',
-    image: 'img/portfolio/let.jpg',
-    description: '레터링 디자인 프로젝트로, 타이포그래피를 중심으로 한 비주얼 아이덴티티 작업입니다.'
+    title: '포스터',
+    image: 'img/portfolio/P2.jpg',
+    description: '영화 시간을 달리는 소녀를 주제로 시간의 흐름과 청춘의 감성을 그래픽적으로 재해석한 포스터 디자인입니다.'
   },
   project3: {
-    title: 'Edit Design Project 3',
-    image: 'img/portfolio/name.png',
-    description: '네이밍과 로고 디자인을 통합한 브랜딩 프로젝트입니다.'
+    title: 'SNS 배너',
+    image: 'img/portfolio/P3.jpg',
+    description: '현대 민화 전시회 홍보를 위한 SNS 배너입니다.'
   },
   project4: {
     title: 'Edit Design Project 4',
-    image: 'img/portfolio/logo1.png',
+    image: 'img/portfolio/P4.jpg',
     description: '기업 로고 디자인 프로젝트로, 브랜드의 정체성을 명확히 표현했습니다.'
   },
   project5: {
     title: 'Edit Design Project 5',
-    image: 'img/portfolio/logo1.png',
+    image: 'img/portfolio/P5.jpg',
     description: '모던하고 세련된 로고 디자인으로 브랜드 가치를 높였습니다.'
   },
   project6: {
     title: 'Edit Design Project 6',
-    image: 'img/portfolio/logo1.png',
+    image: 'img/portfolio/P6.jpg',
     description: '심볼과 로고타입을 결합한 통합 브랜딩 디자인입니다.'
   }
 };
